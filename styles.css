@@ -1,0 +1,98 @@
+body{
+    box-sizing: border-box;
+    background:
+	repeating-linear-gradient(
+		45deg,
+		transparent,
+		transparent 1em,
+		moccasin 0,
+		moccasin 2em,
+		transparent 0,
+		transparent 3em,
+		powderblue 0,
+		powderblue 4em,
+		transparent 0,
+		transparent 5em,
+		lavender 0,
+		lavender 6em,
+		transparent 0,
+		transparent 7em,
+		beige 0,
+		beige 8em
+	),
+	repeating-linear-gradient(
+		-45deg,
+		transparent,
+		transparent 1em,
+		khaki 0,
+		khaki 2em,
+		transparent 0,
+		transparent 3em,
+		beige 0,
+		beige 4em,
+		transparent 0,
+		transparent 5em,
+		peachpuff 0,
+		peachpuff 6em
+	), whitesmoke;
+
+background-blend-mode: multiply;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    border: solid grey;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-shadow: 10px 5px 5px grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: beige;
+}
+#dropdownMenuButton{
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.dropdown-menu{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.btn-primary{
+    margin-top: 0.5rem;
+}
+.thumbsup{
+    width: 20%;
+    height: 70%;
+    
+}
+.fa-thumbs-up{
+    color: green;
+    font-size: 2rem;
+}
+.fa-thumbs-down{
+    color: red;
+}
+.card{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-color: black;
+    background-color: beige;
+}
+h1, h2{
+    border-bottom: 1px solid grey;
+}
+#spawn{
+    display: inline-block;
+}
+#listInner{
+    display: inline-block;
+}
